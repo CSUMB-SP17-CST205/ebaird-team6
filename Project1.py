@@ -77,6 +77,7 @@ for y in range(height):
           r.append(r7)
           g.append(g7)
           b.append(b7)
+          
           r8, g8, b8 = rgb_img8.getpixel((x, y))
           r.append(r8)
           g.append(g8)
